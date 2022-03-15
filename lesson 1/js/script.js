@@ -69,7 +69,7 @@ let appData = {
                     console.log("Вы ввели некорректные данные или не ввели их вовсе");
                } else {
                     appData.income = items.split(", ");
-                    appData.income.push(prompt("Может что-то ещ0е?"));
+                    appData.income.push(prompt("Может что-то еще?", ""));
                     appData.income.sort();
                }
                appData.income.forEach(function(item, i) {
@@ -78,15 +78,15 @@ let appData = {
           }
 };
 
-appData.chooseExpenses();
+// appData.chooseExpenses();
 
-appData.detectDayBudget();
+// appData.detectDayBudget();
 
-appData.detectLevel();
+// appData.detectLevel();
 
-appData.checkSavings();
+// appData.checkSavings();
 
-appData.chooseOptExpenses();
+// appData.chooseOptExpenses();
 
 appData.chooseIncome();
 
