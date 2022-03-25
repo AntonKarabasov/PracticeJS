@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "@babel/polyfill": "^7.12.1"
-  }
+  },
+  "name": "yoga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
